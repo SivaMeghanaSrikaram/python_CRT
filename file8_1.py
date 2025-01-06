@@ -1,0 +1,5 @@
+x=open('s3batch.txt','r')
+x.seek(2)
+content=x.read()
+print(content)
+x.close()
